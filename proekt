@@ -1,0 +1,9 @@
+class Game:
+    def __init__(self, title: str, genre: str, rating: int):
+        self.title = title
+        self.genre = genre
+        self.rating = rating
+
+
+    def __str__(self):
+        return f"{self.title} ({self.genre}) - {self.rating}/10"
